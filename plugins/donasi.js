@@ -1,17 +1,17 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => conn.sendButtonLoc(m.chat, await (await fetch(bank)).buffer(), `
 *───────「 DONATE 」 ─────*
-𝙃𝙖𝙣𝙮𝙖 𝙢𝙚𝙣𝙚𝙧𝙞𝙢𝙖 𝙢𝙖𝙩𝙖 𝙪𝙖𝙣𝙜 𝙢𝙖𝙡𝙖𝙮𝙨𝙞𝙖
+HANYA MENERIMA MATA UANG INDONESIA 
 ╭═══════════════
 ║╭─── [ DONASI ] ───
-║│➸ _*UMOBILE*_✅ : 
-║│- 60189830350
+║│➸ _*GOPAY*_✅ : 
+║│- 089502435112
 ║│
-║│➸ _*DIGI*_✅: 
-║│- 60149431385
+║│➸ _*DANA*_✅: 
+║│- 085811055800
 ║│
 ║│➸ _*OWNER*_
-║│- wa.me/60189830350
+║│- wa.me/6285811055800
 ║╰────────────
 ╰═══════════════
 `.trim(), 'Donasi jan asal mencet', 'Owner Bot', '.owner')
